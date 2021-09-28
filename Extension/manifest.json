@@ -1,0 +1,26 @@
+{
+  "name": "Ada's Suggest",
+  "description": "Suggestion to browsing of GPT-3",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "icons": {
+    "16": "Ada16.jpg",
+    "32": "Ada32.jpg",
+    "48": "Ada48.jpg",
+    "128": "Ada128.jpg"
+  },
+  "background": {
+    "scripts": ["./background.js"]
+  },
+  "options_page": "./options.html",
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "http://192.168.0.16:5000/*",
+    "storage",
+    "webRequest"
+  ]
+}

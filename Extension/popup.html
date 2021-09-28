@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Teste</title>
+<meta charset="iso-8859-1">
+<style>
+body {    
+    margin: 0 !important;
+    padding: 0 !important;
+    /*width: 800;*/
+}
+
+#frame {
+    overflow: hidden;
+    width: 360px;
+    height: 360px;
+    background-image:  url('Ada.jpg');
+}
+#text {
+    text-align: center;
+
+}
+</style>
+</head>
+<body id="frame" style="background-image: 'Ada.jpg';"><br>
+    
+    <h1 id="text">Ada's Suggest</h1></br></br>
+    <div id="text">
+        <input id="run" type="submit" 
+        value="RUN">
+    </div></br></br>
+    <div id="text">
+        <input id="open" type="submit" 
+        value="OPEN" onchange="localStorage.getItem()">
+    </div>
+    <script src="background.js"></script>
+</body>
+</html>
