@@ -1,11 +1,10 @@
 # ada_sugest
-Teste com API de IA OpenAPI
 
-Projeto criado para testes com a API OpenAI.
+Project created for testing with the OpenAI API.
 
-Extensão para o Google Chrome.
+Extension for Google Chrome.
 
-Descrição:
+Description:
 
-A extensão coleta as URLs de navegação do usuário e envia para a API OpenAI. 
-A resposta do modelo gera uma busca por outras URLs com possíveis relações de conteúdo e abre essas URLs no Chrome.
+The extension collects the user's navigation URLs and sends it to the OpenAI API.
+The template response generates a search for other URLs with possible content relationships and opens those URLs in Chrome.
